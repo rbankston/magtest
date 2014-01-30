@@ -1,0 +1,9 @@
+a:5:{i:0;s:211:"Error in file: "/Applications/MAMP/htdocs/magento/app/code/core/Mage/Captcha/sql/captcha_setup/install-1.7.0.0.0.php" - SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'captcha_log' already exists";i:1;s:1028:"#0 /Applications/MAMP/htdocs/magento/app/code/core/Mage/Core/Model/Resource/Setup.php(645): Mage::exception('Mage_Core', 'Error in file: ...')
+#1 /Applications/MAMP/htdocs/magento/app/code/core/Mage/Core/Model/Resource/Setup.php(421): Mage_Core_Model_Resource_Setup->_modifyResourceDb('install', '', '1.7.0.0.0')
+#2 /Applications/MAMP/htdocs/magento/app/code/core/Mage/Core/Model/Resource/Setup.php(327): Mage_Core_Model_Resource_Setup->_installResourceDb('1.7.0.0.0')
+#3 /Applications/MAMP/htdocs/magento/app/code/core/Mage/Core/Model/Resource/Setup.php(235): Mage_Core_Model_Resource_Setup->applyUpdates()
+#4 /Applications/MAMP/htdocs/magento/app/code/core/Mage/Core/Model/App.php(417): Mage_Core_Model_Resource_Setup::applyAllUpdates()
+#5 /Applications/MAMP/htdocs/magento/app/code/core/Mage/Core/Model/App.php(343): Mage_Core_Model_App->_initModules()
+#6 /Applications/MAMP/htdocs/magento/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#7 /Applications/MAMP/htdocs/magento/index.php(87): Mage::run('', 'store')
+#8 {main}";s:3:"url";s:9:"/magento/";s:11:"script_name";s:18:"/magento/index.php";s:4:"skin";s:7:"default";}

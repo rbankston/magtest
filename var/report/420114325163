@@ -1,0 +1,8 @@
+a:5:{i:0;s:295:"Error in file: "/Applications/MAMP/htdocs/magento/app/code/core/Mage/Directory/data/directory_setup/data-upgrade-1.6.0.0-1.6.0.1.php" - SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'default-0-general/region/display_all' for key 'UNQ_CORE_CONFIG_DATA_SCOPE_SCOPE_ID_PATH'";i:1;s:932:"#0 /Applications/MAMP/htdocs/magento/app/code/core/Mage/Core/Model/Resource/Setup.php(645): Mage::exception('Mage_Core', 'Error in file: ...')
+#1 /Applications/MAMP/htdocs/magento/app/code/core/Mage/Core/Model/Resource/Setup.php(407): Mage_Core_Model_Resource_Setup->_modifyResourceDb('data-upgrade', '1.6.0.0', '1.6.0.2')
+#2 /Applications/MAMP/htdocs/magento/app/code/core/Mage/Core/Model/Resource/Setup.php(286): Mage_Core_Model_Resource_Setup->_upgradeData('1.6.0.0', '1.6.0.2')
+#3 /Applications/MAMP/htdocs/magento/app/code/core/Mage/Core/Model/Resource/Setup.php(269): Mage_Core_Model_Resource_Setup->applyDataUpdates()
+#4 /Applications/MAMP/htdocs/magento/app/code/core/Mage/Core/Model/App.php(351): Mage_Core_Model_Resource_Setup::applyAllDataUpdates()
+#5 /Applications/MAMP/htdocs/magento/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#6 /Applications/MAMP/htdocs/magento/index.php(87): Mage::run('', 'store')
+#7 {main}";s:3:"url";s:9:"/magento/";s:11:"script_name";s:18:"/magento/index.php";s:4:"skin";s:7:"default";}

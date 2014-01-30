@@ -1,0 +1,9 @@
+a:5:{i:0;s:238:"Error in file: "/Applications/MAMP/htdocs/magento/app/code/core/Mage/SalesRule/sql/salesrule_setup/upgrade-1.6.0.1-1.6.0.2.php" - SQLSTATE[42000]: Syntax error or access violation: 1061 Duplicate key name 'IDX_COUPON_AGGREGATED_RULE_NAME'";i:1;s:1042:"#0 /Applications/MAMP/htdocs/magento/app/code/core/Mage/Core/Model/Resource/Setup.php(645): Mage::exception('Mage_Core', 'Error in file: ...')
+#1 /Applications/MAMP/htdocs/magento/app/code/core/Mage/Core/Model/Resource/Setup.php(437): Mage_Core_Model_Resource_Setup->_modifyResourceDb('upgrade', '1.6.0.1', '1.6.0.3')
+#2 /Applications/MAMP/htdocs/magento/app/code/core/Mage/Core/Model/Resource/Setup.php(320): Mage_Core_Model_Resource_Setup->_upgradeResourceDb('1.6.0.1', '1.6.0.3')
+#3 /Applications/MAMP/htdocs/magento/app/code/core/Mage/Core/Model/Resource/Setup.php(235): Mage_Core_Model_Resource_Setup->applyUpdates()
+#4 /Applications/MAMP/htdocs/magento/app/code/core/Mage/Core/Model/App.php(417): Mage_Core_Model_Resource_Setup::applyAllUpdates()
+#5 /Applications/MAMP/htdocs/magento/app/code/core/Mage/Core/Model/App.php(343): Mage_Core_Model_App->_initModules()
+#6 /Applications/MAMP/htdocs/magento/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#7 /Applications/MAMP/htdocs/magento/index.php(87): Mage::run('', 'store')
+#8 {main}";s:3:"url";s:9:"/magento/";s:11:"script_name";s:18:"/magento/index.php";s:4:"skin";s:7:"default";}
