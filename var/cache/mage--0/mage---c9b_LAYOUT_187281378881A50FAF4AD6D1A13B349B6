@@ -1,3 +1,0 @@
-<remove name="right"/>
-<remove name="left"/>
-<block type="checkout/onepage_shipping_method_available" name="root" output="toHtml" template="checkout/onepage/shipping_method/available.phtml"/>
